@@ -13,7 +13,7 @@ classifier = ["Programming Language :: Python"]
 [dependencies]
 rand = "0.7.2"
 rayon = "1.3.0"
-pyo3 = { version = "0.8.0", features = ["extension-module"], optional = true }
+pyo3 = { version = "0.29.0", features = ["extension-module"], optional = true }
 
 [lib]
 crate-type = ["cdylib", "rlib"]
